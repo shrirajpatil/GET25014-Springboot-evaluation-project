@@ -107,7 +107,7 @@ The server will start on: http://localhost:8080
 
 To execute unit tests:
 
-mvn test
+`mvn test`
 
 
 
