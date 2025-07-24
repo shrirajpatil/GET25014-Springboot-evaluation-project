@@ -27,21 +27,21 @@ A simple Spring Boot application that provides REST endpoints to submit and view
 
 ### Create the PostgreSQL Database
 
-CREATE DATABASE feedback_db;
+  `CREATE DATABASE feedback_db;`
 
 ### Configure application.yml
 
 Make sure the following configuration exists in your `src/main/resources/application.yml`:
 
-spring:  
-  datasource:  
-    url: jdbc:postgresql://localhost:5432/feedback_db  
-    username: postgres      # your username  
-    password: admin         # your password  
-  jpa:  
-    hibernate:  
-      ddl-auto: update  
-    show-sql: true
+`spring:  `
+  `datasource:  `
+    `url: jdbc:postgresql://localhost:5432/feedback_db  `
+    `username: postgres      # your username ` 
+    `password: admin         # your password  `
+  `jpa:`  
+    `hibernate:`  
+      `ddl-auto: update`  
+    `show-sql: true`
 
 
 
