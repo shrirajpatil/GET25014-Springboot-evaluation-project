@@ -33,15 +33,15 @@ A simple Spring Boot application that provides REST endpoints to submit and view
 
 Make sure the following configuration exists in your `src/main/resources/application.yml`:
 
-`spring:  `
-  `datasource:  `
-    `url: jdbc:postgresql://localhost:5432/feedback_db  `
-    `username: postgres      # your username ` 
-    `password: admin         # your password  `
-  `jpa:`  
-    `hibernate:`  
-      `ddl-auto: update`  
-    `show-sql: true`
+spring:  `
+  datasource:  `
+    url: jdbc:postgresql://localhost:5432/feedback_db  
+    username: postgres      # your username 
+    password: admin         # your password  
+  jpa:
+    hibernate:  
+      ddl-auto: update  
+    show-sql: true
 
 
 
@@ -49,7 +49,7 @@ Make sure the following configuration exists in your `src/main/resources/applica
 
 ### Run the Application
 
-Start the application using:  mvn spring-boot:run
+Start the application using:  `mvn spring-boot:run`
 
 
 
@@ -58,7 +58,7 @@ Start the application using:  mvn spring-boot:run
 
 
 
-The server will start on: http://localhost:8080
+The server will start on: `http://localhost:8080`
 
 
 
@@ -92,7 +92,7 @@ The server will start on: http://localhost:8080
 
 ### View All Feedback (GET)
 
-- URL: http://localhost:8080/feedback  
+- URL: `http://localhost:8080/feedback`  
 - Method: GET
 
 
