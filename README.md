@@ -45,14 +45,22 @@ spring:
 
 
 
+
+
 ### Run the Application
 
 Start the application using:  mvn spring-boot:run
 
+
+
 <img width="1919" height="351" alt="image" src="https://github.com/user-attachments/assets/a007bfef-9f48-4f8d-918f-65236a760aa7" />
 
 
+
+
 The server will start on: http://localhost:8080
+
+
 
 
 ## Sample API Requests (Tested via Postman)
@@ -65,13 +73,20 @@ The server will start on: http://localhost:8080
 - 
 - Body:
 
+
+
+
 {
   "name": "Shriraj",
   "email": "patilshriraj6@gmail.com",
   "message": "This is good"
 }
 
+
+
 <img width="1913" height="1021" alt="image" src="https://github.com/user-attachments/assets/bb60d1c6-81f0-4d35-bd42-abf7ef619d21" />
+
+
 
 
 
@@ -80,7 +95,11 @@ The server will start on: http://localhost:8080
 - URL: http://localhost:8080/feedback  
 - Method: GET
 
+
+
 - <img width="1919" height="1019" alt="image" src="https://github.com/user-attachments/assets/bd7137d7-0271-4c28-84c7-cbd40416a483" />
+
+
 
 
 
@@ -89,6 +108,8 @@ The server will start on: http://localhost:8080
 To execute unit tests:
 
 mvn test
+
+
 
 <img width="1829" height="602" alt="image" src="https://github.com/user-attachments/assets/b9356ec1-982c-4b4e-9b63-595e1700853e" />
 
